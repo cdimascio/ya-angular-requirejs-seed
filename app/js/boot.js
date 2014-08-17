@@ -29,12 +29,18 @@ require.config({
 window.name = "NG_DEFER_BOOTSTRAP!";
 
 require([
+    // Add additional dependencies
+    'angular',
+    'angularRoute',
+    'app',
     'jquery',
     'bootstrap',
-	'angular',
-	'app',
-    'app-config',
-	'routes'
-    // Add additional dependencies here
-]);
+    'controllers',
+    'services',
+    'directives',
+    'filters',
+    'routes'
+], function (angular) {
+    angular.bootstrap(document, ['myApp']);
+});
 

@@ -81,7 +81,6 @@ Now browse to the app at `http://localhost:8080`.
         service/                --> applicaiton services
             version_service     --> version_service impl
         app.js          --> angular application
-        app-config.js   --> angular config
         boot.js         --> bootstrap logic - requirejs setup and boot
         controllers.js  --> application controllers
         directives.js   --> application directives
