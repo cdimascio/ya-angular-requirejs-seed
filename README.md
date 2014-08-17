@@ -1,4 +1,4 @@
-# angular-seed — the seed for AngularJS apps
+# ya-angular-requirejs-seed — the seed for AngularJS + RequireJS apps
 
 This project is an application skeleton for a [AngularJS](http://angularjs.org/) / [RequireJS](http://requirejs.org/) web app.
 It is based on an earlier AngularJS seed project which can be found [here](https://github.com/angular/angular-seed).
@@ -96,3 +96,6 @@ Now browse to the app at `http://localhost:8080`.
         partial1.html
         partial2.html
 
+=======
+ya-angular-requirejs-seed
+=========================
