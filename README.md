@@ -14,21 +14,17 @@ Finally, to demonstrate this functionality, this seed seed contains a trivial sa
 
 ## Getting Started
 
-Clone the ya-angular-requirejs-seed project with Git
+Clone the ya-angular-requirejs-seed project and install the dependencies.
 
 ### Prerequisites
 
-Git - SCM tool
+[Git](http://git-scm.com/) - use [Git](http://git-scm.com/) to clone the ya-angular-requirejs-seed repository
 
-Node Package Manager - npm
-
-Using npm we will install the remaining dependencies:
-    Bower - to install  client side dependent libraries
-    http-server - simple http server
+Node Package Manager (npm) - use npm to install project dependencies including bower and http-server. You can get npm [here](http://nodejs.org/)
 
 ### Clone ya-angular-requirejs-seed
 
-Clone the angular-seed repository using [git][git]:
+Clone the angular-requirejs-seed repository using [git](http://nodejs.org/):
 
 ```
 https://github.com/cdimascio/ya-angular-requirejs-seed
@@ -39,8 +35,8 @@ cd ya-angular-requirejs-seed
 
 We have two kinds of dependencies in this project: tools and angular framework code.
 
-* We get the tools we depend upon via `npm`, the [node package manager][npm].
-* We get the angular code via `bower`, a [client-side code package manager][bower].
+* We get the tools we depend upon via `npm`, the [node package manager](http://nodejs.org/).
+* We get the angular code via `bower`, a [client-side code package manager](http://bower.io/).
 
 ```
 npm install bower -g
