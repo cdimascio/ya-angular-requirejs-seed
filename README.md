@@ -1,0 +1,2 @@
+ya-angular-requirejs-seed
+=========================
