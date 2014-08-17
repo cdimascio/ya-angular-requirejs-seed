@@ -32,15 +32,15 @@ require([
     // Add additional dependencies
     'angular',
     'angularRoute',
-    'app',
     'jquery',
     'bootstrap',
+    'app',
     'controllers',
     'services',
     'directives',
     'filters',
     'routes'
-], function (angular) {
+], function () {
     angular.bootstrap(document, ['myApp']);
 });
 

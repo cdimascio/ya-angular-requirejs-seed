@@ -1,6 +1,6 @@
 'use strict';
 
-define(['angular'], function (angular) {
+define(['angular'], function() {
     return angular.module('myApp', [
         'ngRoute',
         'myApp.filters',
